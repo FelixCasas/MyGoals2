@@ -4,7 +4,7 @@ function GoalItem({itemData, OnDeleteItem, id}) {
 
     function deleteGoalHandeler() {
         OnDeleteItem(id)
-        console.log('Delete Goal handeler')
+        console.log('Delete Goal handelers')
     }
 
     return (
